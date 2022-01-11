@@ -21,7 +21,6 @@ function App() {
       }
 
       const data = await response.json();
-
       const loadedMovies = [];
 
       for (const key in data) {
